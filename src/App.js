@@ -29,7 +29,7 @@ class App extends Component {
         </Text>
         <Image width={[1 / 2]} src={ImgPart1} my={2} />
         <Text fontSize={18} pt={4} px={3} textAlign="center">
-          2. Open <Highlight>Dapps</Highlight> Tab on Application.
+          2. Open <Highlight>DApps</Highlight> Tab on Application.
         </Text>
         <Image width={[1 / 2.5]} src={ImgPart2} my={2} />
         <Text fontSize={18} pt={4} px={3} textAlign="center">
