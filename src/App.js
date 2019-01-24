@@ -15,25 +15,18 @@ class App extends Component {
 
   render() {
     return (
-      <PageContainer background="linear-gradient(to bottom, #3f55a1, #2b4185)">
-        <Flex
-          justifyContent="center"
-          flexDirection="column"
-          alignItems="center"
-        >
-          <Box py={5}>
-            <Text fontSize={30} fontWeight="bold" color={"white"}>
-              Instruction
-            </Text>
-          </Box>
-          <Box py={3}>
-            <Button onClick={this.openCoinBaseLink} width={200}>
-              Open CoinBase Wallet
-            </Button>
-          </Box>
-          <Box mb={200} />
-        </Flex>
-      </PageContainer>
+      <Flex justifyContent="center" flexDirection="column" alignItems="center">
+        <Box py={5}>
+          <Text fontSize={30} fontWeight="bold" color={"black"}>
+            Instruction
+          </Text>
+        </Box>
+        <Box py={3}>
+          <Button onClick={this.openCoinBaseLink} width={200}>
+            Open CoinBase Wallet
+          </Button>
+        </Box>
+      </Flex>
     );
   }
 }

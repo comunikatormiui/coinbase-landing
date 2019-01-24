@@ -4,7 +4,7 @@ import styled from "styled-components";
 const OuterContainer = styled.div`
   background: ${p => p.background};
   width: 100%;
-  height: auto;
+  min-height: 100vh;
 `;
 
 const InnerContainer = styled.div`
