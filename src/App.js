@@ -1,8 +1,18 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
+  constructor() {
+    super();
+
+    this.state = {};
+  }
+
+  openCoinBaseLink() {
+    window.open("http://f68z.app.link/8FDncD2aKT", "_blank");
+  }
+
   render() {
     return (
       <div className="App">
@@ -19,6 +29,7 @@ class App extends Component {
           >
             Learn React
           </a>
+          <button onClick={this.openCoinBaseLink}>Open CoinBase Wallet</button>
         </header>
       </div>
     );
