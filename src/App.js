@@ -40,7 +40,7 @@ class App extends Component {
           3. Insert <Highlight>URL</Highlight> which you will receive from
           staffs.
         </Text>
-        <Image width={[1 / 2.5]} src={ImgPart3} my={1} />
+        <Image width={[1 / 2.5]} src={ImgPart3} mt={3} />
         <Box pt={4} mb="150px">
           <Button bg="#336600" onClick={this.openCoinBaseLink} width={160}>
             Let's redeem
