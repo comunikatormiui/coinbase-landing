@@ -27,17 +27,17 @@ class App extends Component {
           1. Install <Highlight>CoinBase Wallet</Highlight> on PlayStore/Google
           Play.
         </Text>
-        <Image width={[1 / 3]} src={ImgPart1} my={2} />
-        <Text fontSize={18} py={2} px={3} textAlign="center">
+        <Image width={[1 / 2]} src={ImgPart1} my={2} />
+        <Text fontSize={18} pt={4} px={3} textAlign="center">
           2. Open <Highlight>Dapps</Highlight> Tab on Application.
         </Text>
-        <Image width={[1 / 2]} src={ImgPart2} my={2} />
-        <Text fontSize={18} py={3} px={3} textAlign="center">
+        <Image width={[1 / 2.5]} src={ImgPart2} my={2} />
+        <Text fontSize={18} pt={4} px={3} textAlign="center">
           3. Insert <Highlight>URL</Highlight> which you will receive from
           staffs.
         </Text>
-        <Image width={[1 / 2]} src={ImgPart3} my={1} />
-        <Box py={3}>
+        <Image width={[1 / 2.5]} src={ImgPart3} my={1} />
+        <Box pt={4}>
           <Button onClick={this.openCoinBaseLink} width={160}>
             OK Let's claim!
           </Button>
